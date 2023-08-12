@@ -19,7 +19,7 @@ Make sure you have **node**, **npm** and **pnpm** installed on your system. You 
 
 Start the systeminformation application with:
 
-`cd systeminformation`
+`cd dojonode-systeminformation`
 
 `node server.js`
 
