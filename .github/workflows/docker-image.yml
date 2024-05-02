@@ -33,8 +33,8 @@ jobs:
           platforms: linux/amd64,linux/arm64,linux/arm/v7
           push: true
           tags: |
-            wolfderechter/dojonode-systeminformation:latest
-            wolfderechter/dojonode-systeminformation:${{ github.ref_name }}
+            wolfderechter/taiko-node-dashboard:latest
+            wolfderechter/taiko-node-dashboard:${{ github.ref_name }}
 
       - name: Create github release
         uses: ncipollo/release-action@v1
